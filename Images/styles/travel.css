@@ -18,6 +18,11 @@ nav{
     font-weight: 800;
     color: #131318;
 }
+.nav-title img{
+       width: 50px;
+       justify-content: right;
+
+}
 nav > ul{
     display: flex;
 }
@@ -30,7 +35,53 @@ nav li{
 nav li a{
     text-decoration: none;
 }
+.banner-text{
+    border-radius: 16px;
+   }
+   .banner-title h1{
+    position: absolute;
+    margin-top: 25%;
+    padding: 20px;
+   }
+   .banner-description p{
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
 
+   }
+
+.section img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+}
+.div img{
+    display: flex;
+    justify-content: space-between;
+}
+.ul > li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.destination-titleh3{
+    display: flex;
+    align-items: center;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 573px;
+    height: 300px;
+}
+
+
+.tours-plan,h2{
+    text-align: center;
+}
 
 
 
